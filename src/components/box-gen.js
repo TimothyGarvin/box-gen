@@ -9,14 +9,6 @@ const GenerateBox = (props) => {
         setArrColors([...arrColors, color])
     }
 
-    const BoxStyle = {
-        height: '75px',
-        width: '75px',
-        margin: '10px',
-        outline: 'solid 1px black',
-        backgroundColor: `${color}`,
-    }
-
     const ConStyle = {
         display: 'flex',
         alignContent: 'center'
